@@ -10,6 +10,7 @@ var users = require('./routes/users');
 var customers = require('./routes/customers');
 var shipping = require('./routes/shipping');
 var billing = require('./routes/billing');
+var requireAuthentication = require('./routes/admin');
 
 var app = express();
 
@@ -30,6 +31,7 @@ app.use('/users', users);
 app.use('/customers', customers);
 app.use('/shipping', shipping);
 app.use('/billing', billing);
+app.all('/admin', requireAuthentication)
 
 
 // catch 404 and forward to error handler
