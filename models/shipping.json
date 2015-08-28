@@ -1,0 +1,20 @@
+[
+  {
+    "addressLine1": "7889 Sunset Drive",
+    "addressLine2": "House",
+    "city": "Bethlehem",
+    "state": "PA",
+    "zip": "18015",
+    "phone number": "333-555-2929",
+    "customerId": "2"
+  },
+  {
+    "addressLine1": "6126 Clark Street",
+    "addressLine2": "Apt 30",
+    "city": "Frankfort",
+    "state": "KY",
+    "zip": "40601",
+    "phone number": "222-393-5555",
+    "customerId": "3"
+  }
+]
